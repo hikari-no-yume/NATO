@@ -1,0 +1,30 @@
+{
+    "name": "ajf/nato",
+    "type": "library",
+    "description": "Tango Hotel Echo \"November Alfa Tango Oscar\" Papa Hotel Papa Lima India Bravo Romeo Alfa Romeo Yankee",
+    "keywords": ["nato", "phonetic", "alphabet", "encode", "decode"],
+    "homepage": "http://github.com/TazeTSchnitzel/NATO",
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Alfa November Delta Romeo Echo Alfa Foxtrot Alfa Uniform Lima Delta Sierra",
+            "email": "ajf@ajf.me",
+            "homepage": "http://ajf.me/",
+            "role": "Delta Echo Victor Echo Lima Oscar Papa Echo Romeo"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "files": [
+            "src/Mappings.php"
+        ],
+        "psr-4": {
+            "ajf\\NATO\\": "src"
+        }
+    }
+}
